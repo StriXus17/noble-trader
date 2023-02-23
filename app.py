@@ -5,7 +5,7 @@ import sys
 import requests
 import time
 from playground import check_crossing
-binance_api = "https://api.binance.com/api/v3/exchangeInfo"
+binance_api = "https://api.binance.us/api/v3/exchangeInfo"
 kucoin_api = "https://api.kucoin.com/api/v1/symbols"
 response = requests.get(binance_api)
 response_k = requests.get(kucoin_api)
