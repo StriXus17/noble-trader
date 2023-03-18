@@ -49,4 +49,5 @@ while True:
             print("Coins Checked:",len(valid),"/",len(symbols),"\t\t",end="\r",flush=True)
         except:
             continue
-    print("--------------------------")
+print("Refreshing in 5 Mins")
+time.sleep(300)
